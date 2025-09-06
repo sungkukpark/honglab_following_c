@@ -1,8 +1,15 @@
-#include <stdint.h>
 #include <stdio.h>
 
-int32_t main(void)
+int main(void)
 {
-    printf("hello, world\n");
+    int a;
+    int b;
+    int c;
+
+    a = 1;
+    b = 2;
+    c = a + b;
+
+    printf("Result is %i\n", c);
     return 0;
 }
