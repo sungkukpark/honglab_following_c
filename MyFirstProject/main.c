@@ -2,14 +2,10 @@
 
 int main(void)
 {
-    int a;
-    int b;
-    int c;
+    int x, y, z;
 
-    a = 1;
-    b = 2;
-    c = a + b;
-
-    printf("Result is %i\n", c);
+    x = 1;
+    y = 4;
+    z = x + y;
     return 0;
 }
