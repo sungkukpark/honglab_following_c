@@ -430,12 +430,5 @@ FodyWeavers.xsd
 *.out
 **/Contents/*
 
-# 모든 파일 무시
-*
-# 하지만 확장자가 있는 파일은 추적
-!*.*
-
-# 즉, 확장자가 없는 파일만 무시됨
-
 # Visual Studio 2013/2017 cache/options directory
 .vs/
